@@ -9,12 +9,12 @@ const port = 5000;
 app.use(cors());
 
 const contentUploadDirs = {
-    series: 'C:/laragon/www/videos/series',
-    movies: 'C:/laragon/www/videos/movies',
-    documentaries: 'C:/laragon/www/videos/documentaries',
-    episodes: 'C:/laragon/www/videos/episodes',
-    specialSeries: 'C:/laragon/www/videos/specialSeries',
-    specials: 'C:/laragon/www/videos/specials',
+    series: '/var/www/html/mimexico/videos/series',
+    movies: '/var/www/html/mimexico/videos/movies',
+    documentaries: '/var/www/html/mimexico/videos/documentaries',
+    episodes: '/var/www/html/mimexico/videos/episodes',
+    specialSeries: '/var/www/html/mimexico/videos/specialSeries',
+    specials: '/var/www/html/mimexico/videos/specials',
     // Agrega más rutas según tus necesidades
 };
 
